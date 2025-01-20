@@ -21,6 +21,8 @@ class MetasploitModule < Msf::Auxiliary
           Request certificates via MS-ICPR (Active Directory Certificate Services). Depending on the certificate
           template's configuration the resulting certificate can be used for various operations such as authentication.
           PFX certificate files that are saved are encrypted with a blank password.
+
+          This module is capable of exploiting ESC1, ESC2, ESC3, ESC13 and ESC15.
         },
         'License' => MSF_LICENSE,
         'Author' => [
@@ -73,8 +75,7 @@ class MetasploitModule < Msf::Auxiliary
     opts = {}
     if session
       print_status("Using existing session #{session.sid}")
-      client = session.client
-      self.simple = ::Rex::Proto::SMB::SimpleClient.new(client.dispatcher.tcp_socket, client: client)
+      self.simple = session.simple_client
       opts[:tree] = simple.client.tree_connect("\\\\#{client.dispatcher.tcp_socket.peerhost}\\IPC$")
     end
 
