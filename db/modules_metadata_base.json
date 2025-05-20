@@ -1317,14 +1317,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/allegro_rompager_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "admin/http/allegro_rompager_auth_bypass",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1352,14 +1360,23 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
     "is_install_path": true,
     "ref_name": "admin/http/arris_motorola_surfboard_backdoor_xss",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -1465,14 +1482,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/axigen_file_access.rb",
     "is_install_path": true,
     "ref_name": "admin/http/axigen_file_access",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "os-resource-loss"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -1521,14 +1546,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/cfme_manageiq_evm_pass_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cfme_manageiq_evm_pass_reset",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1777,14 +1811,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/cnpilot_r_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cnpilot_r_cmd_exec",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1823,14 +1865,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/cnpilot_r_fpt.rb",
     "is_install_path": true,
     "ref_name": "admin/http/cnpilot_r_fpt",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1869,14 +1919,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/contentkeeper_fileaccess.rb",
     "is_install_path": true,
     "ref_name": "admin/http/contentkeeper_fileaccess",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1918,14 +1976,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dir_300_600_exec_noauth.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dir_300_600_exec_noauth",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -1966,14 +2032,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dir_645_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dir_645_password_extractor",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2013,14 +2087,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/dlink_dsl320b_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/dlink_dsl320b_password_extractor",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2063,14 +2145,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/foreman_openstack_satellite_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/foreman_openstack_satellite_priv_esc",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2170,14 +2261,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-27 07:44:11 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/gitlab_password_reset_account_takeover.rb",
     "is_install_path": true,
     "ref_name": "admin/http/gitlab_password_reset_account_takeover",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2218,14 +2318,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/gitstack_rest.rb",
     "is_install_path": true,
     "ref_name": "admin/http/gitstack_rest",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -2376,14 +2485,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/hp_web_jetadmin_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/hp_web_jetadmin_exec",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2546,14 +2663,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/iis_auth_bypass.rb",
     "is_install_path": true,
     "ref_name": "admin/http/iis_auth_bypass",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2595,14 +2720,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/intersil_pass_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/intersil_pass_reset",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-down"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2641,14 +2775,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/iomega_storcenterpro_sessionid.rb",
     "is_install_path": true,
     "ref_name": "admin/http/iomega_storcenterpro_sessionid",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2749,14 +2891,24 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/jboss_bshdeployer.rb",
     "is_install_path": true,
     "ref_name": "admin/http/jboss_bshdeployer",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes",
+        "artifacts-on-disk"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -2806,14 +2958,24 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/jboss_deploymentfilerepository.rb",
     "is_install_path": true,
     "ref_name": "admin/http/jboss_deploymentfilerepository",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes",
+        "artifacts-on-disk"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -2862,14 +3024,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/jboss_seam_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/jboss_seam_exec",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2913,14 +3083,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/joomla_registration_privesc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/joomla_registration_privesc",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -2961,14 +3140,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/kaseya_master_admin.rb",
     "is_install_path": true,
     "ref_name": "admin/http/kaseya_master_admin",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3008,14 +3196,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/katello_satellite_priv_esc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/katello_satellite_priv_esc",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3056,14 +3253,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/limesurvey_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/limesurvey_file_download",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3104,14 +3309,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/linksys_e1500_e2500_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/linksys_e1500_e2500_exec",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3152,14 +3365,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/linksys_tmunblock_admin_reset_bof.rb",
     "is_install_path": true,
     "ref_name": "admin/http/linksys_tmunblock_admin_reset_bof",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3201,14 +3423,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/linksys_wrt54gl_exec.rb",
     "is_install_path": true,
     "ref_name": "admin/http/linksys_wrt54gl_exec",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3249,14 +3480,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-08 10:51:35 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/manage_engine_dc_create_admin.rb",
     "is_install_path": true,
     "ref_name": "admin/http/manage_engine_dc_create_admin",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3297,14 +3537,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/manageengine_dir_listing.rb",
     "is_install_path": true,
     "ref_name": "admin/http/manageengine_dir_listing",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3345,14 +3593,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/manageengine_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/manageengine_file_download",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3393,14 +3649,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/manageengine_pmp_privesc.rb",
     "is_install_path": true,
     "ref_name": "admin/http/manageengine_pmp_privesc",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3442,14 +3707,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/mantisbt_password_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/mantisbt_password_reset",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3489,14 +3763,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/mutiny_frontend_read_delete.rb",
     "is_install_path": true,
     "ref_name": "admin/http/mutiny_frontend_read_delete",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "os-resource-loss"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -3546,14 +3828,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/netflow_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/netflow_file_download",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3594,14 +3884,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/netgear_auth_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/netgear_auth_download",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3825,14 +4123,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/netgear_soap_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/netgear_soap_password_extractor",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3874,14 +4180,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/netgear_wnr2000_pass_recovery.rb",
     "is_install_path": true,
     "ref_name": "admin/http/netgear_wnr2000_pass_recovery",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3921,14 +4235,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/nexpose_xxe_file_read.rb",
     "is_install_path": true,
     "ref_name": "admin/http/nexpose_xxe_file_read",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -3969,14 +4291,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/novell_file_reporter_filedelete.rb",
     "is_install_path": true,
     "ref_name": "admin/http/novell_file_reporter_filedelete",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "os-resource-loss"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4017,14 +4347,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/nuuo_nvrmini_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/nuuo_nvrmini_reset",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4065,14 +4404,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/openbravo_xxe.rb",
     "is_install_path": true,
     "ref_name": "admin/http/openbravo_xxe",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4087,7 +4434,7 @@
     "author": [
       "Jan-Frederik Rieckers"
     ],
-    "description": "Postfixadmin installations between 2.91 and 3.0.1 do not check if an\n          admin is allowed to delete protected aliases. This vulnerability can be\n          used to redirect protected aliases to an other mail address. Eg. rewrite\n          the postmaster@domain alias",
+    "description": "Postfixadmin installations between 2.91 and 3.0.1 do not check if an\n          admin is allowed to delete protected aliases. This vulnerability can be\n          used to redirect protected aliases to an other mail address. Eg. rewrite\n          the postmaster@domain alias.",
     "references": [
       "CVE-2017-5930",
       "URL-https://github.com/postfixadmin/postfixadmin/pull/23",
@@ -4112,14 +4459,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/pfadmin_set_protected_alias.rb",
     "is_install_path": true,
     "ref_name": "admin/http/pfadmin_set_protected_alias",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4221,14 +4577,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/rails_devise_pass_reset.rb",
     "is_install_path": true,
     "ref_name": "admin/http/rails_devise_pass_reset",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4264,14 +4629,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2021-02-22 15:51:02 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/scadabr_credential_dump.rb",
     "is_install_path": true,
     "ref_name": "admin/http/scadabr_credential_dump",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4314,14 +4687,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/scrutinizer_add_user.rb",
     "is_install_path": true,
     "ref_name": "admin/http/scrutinizer_add_user",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4365,14 +4747,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/sophos_wpa_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/sophos_wpa_traversal",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4412,14 +4802,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/supra_smart_cloud_tv_rfi.rb",
     "is_install_path": true,
     "ref_name": "admin/http/supra_smart_cloud_tv_rfi",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "service-resource-loss"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4459,14 +4858,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/sysaid_admin_acct.rb",
     "is_install_path": true,
     "ref_name": "admin/http/sysaid_admin_acct",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4507,14 +4915,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/sysaid_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/sysaid_file_download",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4555,14 +4971,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
     "is_install_path": true,
     "ref_name": "admin/http/sysaid_sql_creds",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4598,14 +5022,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/telpho10_credential_dump.rb",
     "is_install_path": true,
     "ref_name": "admin/http/telpho10_credential_dump",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4643,14 +5075,20 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/tomcat_administration.rb",
     "is_install_path": true,
     "ref_name": "admin/http/tomcat_administration",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4736,14 +5174,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/tomcat_utf8_traversal",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4787,14 +5233,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/trendmicro_dlp_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/http/trendmicro_dlp_traversal",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4834,14 +5288,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_news_module_sqli.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_news_module_sqli",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4882,14 +5344,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2009_001.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2009_001",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -4931,14 +5401,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-03-23 10:19:30 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2009_002.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2009_002",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -4984,14 +5462,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2025-02-07 12:36:11 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_sa_2010_020.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_sa_2010_020",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5029,14 +5515,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/typo3_winstaller_default_enc_keys.rb",
     "is_install_path": true,
     "ref_name": "admin/http/typo3_winstaller_default_enc_keys",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
@@ -5089,14 +5583,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/ulterius_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/ulterius_file_download",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5138,14 +5640,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/vbulletin_upgrade_admin.rb",
     "is_install_path": true,
     "ref_name": "admin/http/vbulletin_upgrade_admin",
     "check": false,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5186,14 +5697,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/webnms_cred_disclosure.rb",
     "is_install_path": true,
     "ref_name": "admin/http/webnms_cred_disclosure",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5233,14 +5752,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/webnms_file_download.rb",
     "is_install_path": true,
     "ref_name": "admin/http/webnms_file_download",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5399,14 +5926,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_custom_contact_forms.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_custom_contact_forms",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5446,14 +5981,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_easycart_privilege_escalation.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_easycart_privilege_escalation",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5546,14 +6090,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_google_maps_sqli.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_google_maps_sqli",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5650,7 +6203,7 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-11-28 13:18:47 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_post_smtp_acct_takeover.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_post_smtp_acct_takeover",
@@ -5705,14 +6258,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_symposium_sql_injection.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_symposium_sql_injection",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5751,14 +6312,23 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/wp_wplms_privilege_escalation.rb",
     "is_install_path": true,
     "ref_name": "admin/http/wp_wplms_privilege_escalation",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "config-changes"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -5797,14 +6367,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2023-02-08 14:30:08 +0000",
+    "mod_time": "2025-05-16 01:16:37 +0000",
     "path": "/modules/auxiliary/admin/http/zyxel_admin_password_extractor.rb",
     "is_install_path": true,
     "ref_name": "admin/http/zyxel_admin_password_extractor",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -61539,14 +62117,22 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-16 15:07:08 +0000",
     "path": "/modules/exploits/linux/browser/adobe_flashplayer_aslaunch.rb",
     "is_install_path": true,
     "ref_name": "linux/browser/adobe_flashplayer_aslaunch",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-down"
+      ],
+      "SideEffects": [],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -80359,7 +80945,7 @@
       "Unknown",
       "juan vazquez <juan.vazquez@metasploit.com>"
     ],
-    "description": "This module exploits a code execution flaw in AlienVault 4.6.1 and\n        prior.  The vulnerability exists in the av-centerd SOAP web service,\n        where the update_system_info_debian_package method uses perl backticks\n        in an insecure way, allowing command injection. This module has been\n        tested successfully on AlienVault 4.6.0.",
+    "description": "This module exploits a code execution flaw in AlienVault 4.6.1 and\n          prior.  The vulnerability exists in the av-centerd SOAP web service,\n          where the update_system_info_debian_package method uses perl backticks\n          in an insecure way, allowing command injection. This module has been\n          tested successfully on AlienVault 4.6.0.",
     "references": [
       "CVE-2014-3804",
       "BID-67999",
@@ -80387,14 +80973,24 @@
     "targets": [
       "AlienVault <= 4.6.1"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-20 23:54:29 +0000",
     "path": "/modules/exploits/linux/ids/alienvault_centerd_soap_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/ids/alienvault_centerd_soap_exec",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -80408,7 +81004,7 @@
     "author": [
       "KaiJern Lau <xwings@mysec.org>"
     ],
-    "description": "This module exploits a stack buffer overflow in the Back Orifice pre-processor module\n        included with Snort versions 2.4.0, 2.4.1, 2.4.2, and 2.4.3. This vulnerability could\n        be used to completely compromise a Snort sensor, and would typically gain an attacker\n        full root or administrative privileges.",
+    "description": "This module exploits a stack buffer overflow in the Back Orifice pre-processor module\n          included with Snort versions 2.4.0, 2.4.1, 2.4.2, and 2.4.3. This vulnerability could\n          be used to completely compromise a Snort sensor, and would typically gain an attacker\n          full root or administrative privileges.",
     "references": [
       "CVE-2005-3252",
       "OSVDB-20034",
@@ -80422,14 +81018,20 @@
     "targets": [
       "Debian 3.1 Sarge"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-20 23:54:29 +0000",
     "path": "/modules/exploits/linux/ids/snortbopre.rb",
     "is_install_path": true,
     "ref_name": "linux/ids/snortbopre",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -80444,7 +81046,7 @@
       "aushack <patrick@osisecurity.com.au>",
       "jduck <jduck@metasploit.com>"
     ],
-    "description": "This module exploits a buffer overflow in the 'LSUB'\n        command of the University of Washington IMAP service.\n        This vulnerability can only be exploited with a valid username\n        and password.",
+    "description": "This module exploits a buffer overflow in the 'LSUB'\n          command of the University of Washington IMAP service.\n          This vulnerability can only be exploited with a valid username\n          and password.",
     "references": [
       "CVE-2000-0284",
       "OSVDB-12037",
@@ -80459,14 +81061,24 @@
     "targets": [
       "Linux Bruteforce"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-20 23:42:47 +0000",
     "path": "/modules/exploits/linux/imap/imap_uw_lsub.rb",
     "is_install_path": true,
     "ref_name": "linux/imap/imap_uw_lsub",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-restarts"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "unreliable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -87045,7 +87657,7 @@
       "bannedit <bannedit@metasploit.com>",
       "jduck <jduck@metasploit.com>"
     ],
-    "description": "This exploit takes advantage of a stack based overflow.  Once the stack\n        corruption has occurred it is possible to overwrite a pointer which is\n        later used for a memcpy. This gives us a write anything anywhere condition\n        similar to a format string vulnerability.\n\n        NOTE: The popsubfolders option is a non-default setting.\n\n        I chose to overwrite the GOT with my shellcode and return to it. This\n        defeats the VA random patch and possibly other stack protection features.\n\n        Tested on gentoo-sources Linux 2.6.16. Although Fedora CORE 5 ships with\n        a version containing the vulnerable code, it is not exploitable due to the\n        use of the FORTIFY_SOURCE compiler enhancement",
+    "description": "This exploit takes advantage of a stack based overflow.  Once the stack\n          corruption has occurred it is possible to overwrite a pointer which is\n          later used for a memcpy. This gives us a write anything anywhere condition\n          similar to a format string vulnerability.\n\n          NOTE: The popsubfolders option is a non-default setting.\n\n          I chose to overwrite the GOT with my shellcode and return to it. This\n          defeats the VA random patch and possibly other stack protection features.\n\n          Tested on gentoo-sources Linux 2.6.16. Although Fedora CORE 5 ships with\n          a version containing the vulnerable code, it is not exploitable due to the\n          use of the FORTIFY_SOURCE compiler enhancement.",
     "references": [
       "CVE-2006-2502",
       "OSVDB-25853",
@@ -87062,14 +87674,24 @@
     "targets": [
       "Gentoo 2006.0 Linux 2.6"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-21 02:19:09 +0000",
     "path": "/modules/exploits/linux/pop3/cyrus_pop3d_popsubfolders.rb",
     "is_install_path": true,
     "ref_name": "linux/pop3/cyrus_pop3d_popsubfolders",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-down"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": [
+        "unreliable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -87218,7 +87840,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-21 02:07:54 +0000",
     "path": "/modules/exploits/linux/redis/redis_debian_sandbox_escape.rb",
     "is_install_path": true,
     "ref_name": "linux/redis/redis_debian_sandbox_escape",
@@ -87251,7 +87873,7 @@
     "author": [
       "Green-m <greenm.xxoo@gmail.com>"
     ],
-    "description": "This module can be used to leverage the extension functionality added since Redis 4.0.0\n        to execute arbitrary code. To transmit the given extension it makes use of the feature of Redis\n        which called replication between master and slave.",
+    "description": "This module can be used to leverage the extension functionality added since Redis 4.0.0\n          to execute arbitrary code. To transmit the given extension it makes use of the feature of Redis\n          which called replication between master and slave.",
     "references": [
       "URL-https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf",
       "URL-https://github.com/RedisLabs/RedisModulesSDK"
@@ -87264,7 +87886,7 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2021-02-17 12:33:59 +0000",
+    "mod_time": "2025-05-21 02:07:54 +0000",
     "path": "/modules/exploits/linux/redis/redis_replication_cmd_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/redis/redis_replication_cmd_exec",
@@ -87274,6 +87896,9 @@
     "notes": {
       "Stability": [
         "service-resource-loss"
+      ],
+      "Reliability": [
+        "repeatable-session"
       ],
       "SideEffects": [
         "artifacts-on-disk",
@@ -88589,7 +89214,7 @@
       "wvu <wvu@metasploit.com>",
       "nstarke"
     ],
-    "description": "This module exploits a command injection in the Belkin Wemo UPnP API via\n        the SmartDevURL argument to the SetSmartDevInfo action.\n\n        This module has been tested on a Wemo-enabled Crock-Pot, but other Wemo\n        devices are known to be affected, albeit on a different RPORT (49153).",
+    "description": "This module exploits a command injection in the Belkin Wemo UPnP API via\n          the SmartDevURL argument to the SetSmartDevInfo action.\n\n          This module has been tested on a Wemo-enabled Crock-Pot, but other Wemo\n          devices are known to be affected, albeit on a different RPORT (49153).",
     "references": [
       "URL-https://web.archive.org/web/20150901094849/http://disconnected.io/2014/04/04/universal-plug-and-fuzz/",
       "URL-https://github.com/phikshun/ufuzz",
@@ -88621,7 +89246,7 @@
       "Unix In-Memory",
       "Linux Dropper"
     ],
-    "mod_time": "2025-02-28 09:35:28 +0000",
+    "mod_time": "2025-05-18 16:29:41 +0000",
     "path": "/modules/exploits/linux/upnp/belkin_wemo_upnp_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/belkin_wemo_upnp_exec",
@@ -88669,14 +89294,25 @@
     "targets": [
       "Auto"
     ],
-    "mod_time": "2023-12-05 10:51:12 +0000",
+    "mod_time": "2025-05-18 16:29:41 +0000",
     "path": "/modules/exploits/linux/upnp/dlink_dir859_exec_ssdpcgi.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/dlink_dir859_exec_ssdpcgi",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs",
+        "artifacts-on-disk"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -88691,7 +89327,7 @@
       "Miguel Mendez Z., <Miguel Mendez Z., @s1kr10s>",
       "Pablo Pollanco P."
     ],
-    "description": "D-Link DIR-859 Routers are vulnerable to OS command injection via the UPnP\n        interface. The vulnerability exists in /gena.cgi (function genacgi_main() in\n        /htdocs/cgibin), which is accessible without credentials.",
+    "description": "D-Link DIR-859 Routers are vulnerable to OS command injection via the UPnP\n          interface. The vulnerability exists in /gena.cgi (function genacgi_main() in\n          /htdocs/cgibin), which is accessible without credentials.",
     "references": [
       "CVE-2019-17621",
       "URL-https://medium.com/@s1kr10s/d94b47a15104"
@@ -88717,14 +89353,24 @@
     "targets": [
       "Automatic"
     ],
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-18 16:29:41 +0000",
     "path": "/modules/exploits/linux/upnp/dlink_dir859_subscribe_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/dlink_dir859_subscribe_exec",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk"
+      ],
+      "Reliability": [
+        "repeatable-session"
+      ]
+    },
     "session_types": false,
     "needs_cleanup": null
   },
@@ -88777,7 +89423,7 @@
       "Unix Command",
       "Linux Dropper"
     ],
-    "mod_time": "2023-11-14 20:40:38 +0000",
+    "mod_time": "2025-05-18 16:29:41 +0000",
     "path": "/modules/exploits/linux/upnp/dlink_upnp_msearch_exec.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/dlink_upnp_msearch_exec",
@@ -88812,7 +89458,7 @@
       "Onur ALANBEL",
       "Michael Messner <devnull@s3cur1ty.de>"
     ],
-    "description": "This module exploits the MiniUPnP 1.0 SOAP stack buffer overflow vulnerability\n        present in the SOAPAction HTTP header handling.",
+    "description": "This module exploits the MiniUPnP 1.0 SOAP stack buffer overflow vulnerability\n          present in the SOAPAction HTTP header handling.",
     "references": [
       "CVE-2013-0230",
       "OSVDB-89624",
@@ -88841,14 +89487,22 @@
       "Debian GNU/Linux 6.0 / MiniUPnPd 1.0",
       "Airties RT-212 v1.2.0.23 / MiniUPnPd 1.0"
     ],
-    "mod_time": "2022-01-23 15:28:32 +0000",
+    "mod_time": "2025-05-18 16:29:41 +0000",
     "path": "/modules/exploits/linux/upnp/miniupnpd_soap_bof.rb",
     "is_install_path": true,
     "ref_name": "linux/upnp/miniupnpd_soap_bof",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "artifacts-on-disk"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": null
   },
