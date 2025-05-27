@@ -9851,7 +9851,7 @@
       "rgod <rgod@autistici.org>",
       "juan vazquez <juan.vazquez@metasploit.com>"
     ],
-    "description": "This module exploits a SQL injection vulnerability found in Advantech WebAccess 7.1. The\n        vulnerability exists in the DBVisitor.dll component, and can be abused through malicious\n        requests to the ChartThemeConfig web service. This module can be used to extract the site\n        and project usernames and hashes.",
+    "description": "This module exploits a SQL injection vulnerability found in Advantech WebAccess 7.1. The\n          vulnerability exists in the DBVisitor.dll component, and can be abused through malicious\n          requests to the ChartThemeConfig web service. This module can be used to extract the site\n          and project usernames and hashes.",
     "references": [
       "CVE-2014-0763",
       "ZDI-14-077",
@@ -9878,14 +9878,22 @@
       "https"
     ],
     "targets": null,
-    "mod_time": "2020-09-22 02:56:51 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/advantech_webaccess_dbvisitor_sqli",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -9901,7 +9909,7 @@
       "Unknown",
       "juan vazquez <juan.vazquez@metasploit.com>"
     ],
-    "description": "This module abuses a directory traversal in GE Proficy Cimplicity, specifically on the\n        gefebt.exe component used by the WebView, in order to retrieve arbitrary files with SYSTEM\n        privileges. This module has been tested successfully on GE Proficy Cimplicity 7.5.",
+    "description": "This module abuses a directory traversal in GE Proficy Cimplicity, specifically on the\n          gefebt.exe component used by the WebView, in order to retrieve arbitrary files with SYSTEM\n          privileges. This module has been tested successfully on GE Proficy Cimplicity 7.5.",
     "references": [
       "CVE-2013-0653",
       "OSVDB-89490",
@@ -9914,14 +9922,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/ge_proficy_substitute_traversal.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/ge_proficy_substitute_traversal",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -9937,7 +9953,7 @@
       "K. Reid Wightman <wightman@digitalbond.com>",
       "todb <todb@metasploit.com>"
     ],
-    "description": "The Schneider Modicon with Unity series of PLCs use Modbus function\n        code 90 (0x5a) to perform administrative commands without authentication.\n        This module allows a remote user to change the state of the PLC between\n        STOP and RUN, allowing an attacker to end process control by the PLC.\n\n        This module is based on the original 'modiconstop.rb' Basecamp module from\n        DigitalBond.",
+    "description": "The Schneider Modicon with Unity series of PLCs use Modbus function\n          code 90 (0x5a) to perform administrative commands without authentication.\n          This module allows a remote user to change the state of the PLC between\n          STOP and RUN, allowing an attacker to end process control by the PLC.\n\n          This module is based on the original 'modiconstop.rb' Basecamp module from\n          DigitalBond.",
     "references": [
       "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
     ],
@@ -9947,14 +9963,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/modicon_command.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/modicon_command",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -9970,7 +9994,7 @@
       "K. Reid Wightman <wightman@digitalbond.com>",
       "todb <todb@metasploit.com>"
     ],
-    "description": "The Schneider Modicon Quantum series of Ethernet cards store usernames and\n        passwords for the system in files that may be retrieved via backdoor access.\n\n        This module is based on the original 'modiconpass.rb' Basecamp module from\n        DigitalBond.",
+    "description": "The Schneider Modicon Quantum series of Ethernet cards store usernames and\n          passwords for the system in files that may be retrieved via backdoor access.\n\n          This module is based on the original 'modiconpass.rb' Basecamp module from\n          DigitalBond.",
     "references": [
       "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
     ],
@@ -9985,14 +10009,22 @@
       "ftp"
     ],
     "targets": null,
-    "mod_time": "2025-05-21 10:45:08 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/modicon_password_recovery.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/modicon_password_recovery",
     "check": true,
     "post_auth": true,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10008,7 +10040,7 @@
       "K. Reid Wightman <wightman@digitalbond.com>",
       "todb <todb@metasploit.com>"
     ],
-    "description": "The Schneider Modicon with Unity series of PLCs use Modbus function\n        code 90 (0x5a) to send and receive ladder logic.  The protocol is\n        unauthenticated, and allows a rogue host to retrieve the existing\n        logic and to upload new logic.\n\n        Two modes are supported: \"SEND\" and \"RECV,\" which behave as one might\n        expect -- use 'set mode ACTIONAME' to use either mode of operation.\n\n        In either mode, FILENAME must be set to a valid path to an existing\n        file (for SENDing) or a new file (for RECVing), and the directory must\n        already exist.  The default, 'modicon_ladder.apx' is a blank\n        ladder logic file which can be used for testing.\n\n        This module is based on the original 'modiconstux.rb' Basecamp module from\n        DigitalBond.",
+    "description": "The Schneider Modicon with Unity series of PLCs use Modbus function\n          code 90 (0x5a) to send and receive ladder logic.  The protocol is\n          unauthenticated, and allows a rogue host to retrieve the existing\n          logic and to upload new logic.\n\n          Two modes are supported: \"SEND\" and \"RECV,\" which behave as one might\n          expect -- use 'set mode ACTIONAME' to use either mode of operation.\n\n          In either mode, FILENAME must be set to a valid path to an existing\n          file (for SENDing) or a new file (for RECVing), and the directory must\n          already exist.  The default, 'modicon_ladder.apx' is a blank\n          ladder logic file which can be used for testing.\n\n          This module is based on the original 'modiconstux.rb' Basecamp module from\n          DigitalBond.",
     "references": [
       "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
     ],
@@ -10018,14 +10050,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2022-03-10 18:03:35 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/modicon_stux_transfer.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/modicon_stux_transfer",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10041,7 +10081,7 @@
       "Patrick DeSantis <p@t-r10t.com>",
       "K. Reid Wightman <reid@revics-security.com>"
     ],
-    "description": "The Moxa protocol listens on 4800/UDP and will respond to broadcast\n        or direct traffic.  The service is known to be used on Moxa devices\n        in the NPort, OnCell, and MGate product lines.  Many devices with\n        firmware versions older than 2017 or late 2016 allow admin credentials\n        and SNMP read and read/write community strings to be retrieved without\n        authentication.\n\n        This module is the work of Patrick DeSantis of Cisco Talos and K. Reid\n        Wightman.\n\n        Tested on: Moxa NPort 6250 firmware v1.13, MGate MB3170 firmware 2.5,\n        and NPort 5110 firmware 2.6.",
+    "description": "The Moxa protocol listens on 4800/UDP and will respond to broadcast\n          or direct traffic.  The service is known to be used on Moxa devices\n          in the NPort, OnCell, and MGate product lines.  Many devices with\n          firmware versions older than 2017 or late 2016 allow admin credentials\n          and SNMP read and read/write community strings to be retrieved without\n          authentication.\n\n          This module is the work of Patrick DeSantis of Cisco Talos and K. Reid\n          Wightman.\n\n          Tested on: Moxa NPort 6250 firmware v1.13, MGate MB3170 firmware 2.5,\n          and NPort 5110 firmware 2.6.",
     "references": [
       "CVE-2016-9361",
       "BID-85965",
@@ -10055,14 +10095,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/moxa_credentials_recovery.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/moxa_credentials_recovery",
     "check": true,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10079,7 +10127,7 @@
       "K. Reid Wightman <wightman@digitalbond.com>",
       "todb <todb@metasploit.com>"
     ],
-    "description": "The EtherNet/IP CIP protocol allows a number of unauthenticated commands to a PLC which\n        implements the protocol.  This module implements the CPU STOP command, as well as\n        the ability to crash the Ethernet card in an affected device.\n\n        This module is based on the original 'ethernetip-multi.rb' Basecamp module\n        from DigitalBond.",
+    "description": "The EtherNet/IP CIP protocol allows a number of unauthenticated commands to a PLC which\n          implements the protocol.  This module implements the CPU STOP command, as well as\n          the ability to crash the Ethernet card in an affected device.\n\n          This module is based on the original 'ethernetip-multi.rb' Basecamp module\n          from DigitalBond.",
     "references": [
       "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
     ],
@@ -10089,14 +10137,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2024-01-07 15:02:53 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/multi_cip_command.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/multi_cip_command",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-down"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10168,7 +10224,7 @@
     "author": [
       "Luis Rosa <lmrosa@dei.uc.pt>"
     ],
-    "description": "Unitronics Vision PLCs allow remote administrative functions to control\n        the PLC using authenticated PCOM commands.\n\n        This module supports START, STOP and RESET operations.",
+    "description": "Unitronics Vision PLCs allow remote administrative functions to control\n          the PLC using authenticated PCOM commands.\n\n          This module supports START, STOP and RESET operations.",
     "references": [
       "URL-https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf"
     ],
@@ -10178,14 +10234,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2021-01-29 16:19:13 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/pcom_command.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/pcom_command",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-service-restarts"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10200,7 +10264,7 @@
     "author": [
       "Tijl Deneut <tijl.deneut@howest.be>"
     ],
-    "description": "PhoenixContact Programmable Logic Controllers are built upon a variant of\n        ProConOS. Communicating using a proprietary protocol over ports TCP/1962\n        and TCP/41100 or TCP/20547.\n        It allows a remote user to read out the PLC Type, Firmware and\n         Build number on port TCP/1962.\n        And also to read out the CPU State (Running or Stopped) AND start\n         or stop the CPU on port TCP/41100 (confirmed ILC 15x and 17x series)\n         or on port TCP/20547 (confirmed ILC 39x series)",
+    "description": "PhoenixContact Programmable Logic Controllers are built upon a variant of\n          ProConOS. Communicating using a proprietary protocol over ports TCP/1962\n          and TCP/41100 or TCP/20547.\n          It allows a remote user to read out the PLC Type, Firmware and\n          Build number on port TCP/1962.\n          And also to read out the CPU State (Running or Stopped) AND start\n          or stop the CPU on port TCP/41100 (confirmed ILC 15x and 17x series)\n          or on port TCP/20547 (confirmed ILC 39x series)",
     "references": [
       "URL-https://github.com/tijldeneut/ICSSecurityScripts",
       "CVE-2014-9195"
@@ -10211,14 +10275,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2020-10-02 17:38:06 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/phoenix_command.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/phoenix_command",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-os-down"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": []
@@ -10233,7 +10305,7 @@
     "author": [
       "Unknown"
     ],
-    "description": "This module allows an unauthenticated user to interact with the Yokogawa\n        CENTUM CS3000 BKBCopyD.exe service through the PMODE, RETR and STOR\n        operations.",
+    "description": "This module allows an unauthenticated user to interact with the Yokogawa\n          CENTUM CS3000 BKBCopyD.exe service through the PMODE, RETR and STOR\n          operations.",
     "references": [
       "CVE-2014-5208",
       "URL-https://www.rapid7.com/blog/post/2014/08/09/r7-2014-10-disclosure-yokogawa-centum-cs3000-bkbcopydexe-file-system-access"
@@ -10244,14 +10316,22 @@
     "autofilter_ports": [],
     "autofilter_services": [],
     "targets": null,
-    "mod_time": "2022-03-10 10:28:25 +0000",
+    "mod_time": "2025-05-26 20:49:19 +0000",
     "path": "/modules/auxiliary/admin/scada/yokogawa_bkbcopyd_client.rb",
     "is_install_path": true,
     "ref_name": "admin/scada/yokogawa_bkbcopyd_client",
     "check": false,
     "post_auth": false,
     "default_credential": false,
-    "notes": {},
+    "notes": {
+      "Stability": [
+        "crash-safe"
+      ],
+      "SideEffects": [
+        "ioc-in-logs"
+      ],
+      "Reliability": []
+    },
     "session_types": false,
     "needs_cleanup": false,
     "actions": [
